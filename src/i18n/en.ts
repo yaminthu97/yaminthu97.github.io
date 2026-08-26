@@ -27,7 +27,7 @@ export const en: Content = {
       "I build modern, reliable, and user-focused web applications across the full stack — from frontend interfaces to backend systems and databases.",
     location: "Yangon, Myanmar",
     email: "yaminthu.at@gmail.com",
-    phone: "09977803561",
+    phone: "+959977803561",
     github: "https://github.com/yaminthu97",
     resumeUrl: "/resume-en.pdf",
     education: {

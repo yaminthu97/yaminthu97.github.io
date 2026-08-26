@@ -27,7 +27,7 @@ export const ja: Content = {
       "フロントエンドからバックエンド、データベースまで、フルスタックでモダンかつ信頼性の高い、ユーザー視点のWebアプリケーションを開発しています。",
     location: "ミャンマー・ヤンゴン",
     email: "yaminthu.at@gmail.com",
-    phone: "09977803561",
+    phone: "+959977803561",
     github: "https://github.com/yaminthu97",
     resumeUrl: "/resume-ja.pdf",
     education: {
