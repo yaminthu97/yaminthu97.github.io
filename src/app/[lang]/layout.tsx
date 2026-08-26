@@ -89,6 +89,7 @@ export default async function LangLayout({
           strategy="beforeInteractive"
           dangerouslySetInnerHTML={{ __html: themeInitScript }}
         />
+        <meta name="google-site-verification" content="S3XtBMZvcUI7tjSaXB_Ct-MTQ9D6drNUx00X6smnfwc" />
       </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
