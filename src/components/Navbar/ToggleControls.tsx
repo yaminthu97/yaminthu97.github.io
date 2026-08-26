@@ -3,6 +3,7 @@
 import { Sun, Moon } from "lucide-react";
 import type { Lang } from "../../i18n/types";
 import { useTheme } from "../../context/ThemeContext";
+import { BASE_PATH } from "../../lib/site";
 
 export function ToggleControls({ lang }: { lang: Lang }) {
   const { theme, toggleTheme } = useTheme();
@@ -28,7 +29,7 @@ export function ToggleControls({ lang }: { lang: Lang }) {
           }`}
         />
         <a
-          href="/en"
+          href={`${BASE_PATH}/en`}
           hrefLang="en"
           aria-current={lang === "en" ? "page" : undefined}
           className={`relative z-10 w-7 rounded-full py-1.5 text-center transition-colors ${
@@ -38,7 +39,7 @@ export function ToggleControls({ lang }: { lang: Lang }) {
           EN
         </a>
         <a
-          href="/ja"
+          href={`${BASE_PATH}/ja`}
           hrefLang="ja"
           aria-current={lang === "ja" ? "page" : undefined}
           className={`relative z-10 w-7 rounded-full py-1.5 text-center transition-colors ${

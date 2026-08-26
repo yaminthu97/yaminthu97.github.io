@@ -54,15 +54,15 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const lang = toLang((await params).lang);
   return {
-    metadataBase: new URL(SITE_URL),
+    metadataBase: new URL(`${SITE_URL}/`),
     icons: {
-      icon: "/favicon.svg",
+      icon: "favicon.svg",
     },
     alternates: {
-      canonical: `/${lang}`,
+      canonical: lang,
       languages: {
-        en: "/en",
-        ja: "/ja",
+        en: "en",
+        ja: "ja",
       },
     },
   };

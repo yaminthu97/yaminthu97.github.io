@@ -2,6 +2,7 @@ import { Download } from "lucide-react";
 import { Reveal } from "../common/Reveal";
 import { Button } from "../common/Button";
 import type { Content } from "../../i18n/types";
+import { BASE_PATH } from "../../lib/site";
 
 export function Resume({ t }: { t: Content }) {
   const { resume, profile } = t;
@@ -15,7 +16,7 @@ export function Resume({ t }: { t: Content }) {
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-text-muted">{resume.description}</p>
           <div className="mt-8">
-            <Button href={profile.resumeUrl} variant="primary" target="_blank" rel="noopener noreferrer">
+            <Button href={`${BASE_PATH}${profile.resumeUrl}`} variant="primary" target="_blank" rel="noopener noreferrer">
               {resume.downloadResume}
               <Download size={16} aria-hidden="true" />
             </Button>
