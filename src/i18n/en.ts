@@ -50,7 +50,7 @@ export const en: Content = {
     headlineAccent: "impact.",
     paragraphs: [
       "I'm a Full Stack Developer with a Bachelor's degree in Computer Science and about six years of experience building production web applications — from WordPress and Shopify sites to PHP/Laravel business systems. I move comfortably across the stack, from React and JavaScript on the frontend to Laravel/PHP and MySQL on the backend, picking up new frameworks quickly when a project calls for it.",
-      "I've built a strong habit of thorough testing and work well in ambiguous situations, asking the right questions early rather than guessing. Most of my project work has been on Japan-facing teams as part of a Myanmar-based offshore group — I hold JLPT N3 and I'm looking for a full-stack role, ideally at a Japanese company, where I can keep building on that cross-team collaboration experience.",
+      "I've built a strong habit of thorough testing and work well in ambiguous situations, asking the right questions early rather than guessing. Most of my project work has been on Japan-facing teams as part of a Myanmar-based offshore group — I hold JLPT N2 and I'm looking for a full-stack role, ideally at a Japanese company, where I can keep building on that cross-team collaboration experience.",
     ],
     factLabels: {
       location: "Location",
